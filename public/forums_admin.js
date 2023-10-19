@@ -10,7 +10,7 @@ $(this).ready(function(){
 			success:function(result){
 				var rows='';
 				var i=1;
-				$.each(result, function(index, value){
+				$.each(result.forums, function(index, value){
 					rows += '<tr><td>'+i+'</td>'+
 					'<td>'+value.forum_title+'</td>'+
 					'<td>'+value.subtitle+'</td>'+
