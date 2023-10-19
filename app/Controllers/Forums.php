@@ -30,24 +30,6 @@ class Forums extends BaseController{
 			echo json_encode($data);
 		}
 	}
-	public function getForum(){
-		$id = $this->request->getPost('id');
-		$model = new ForumsModel();
-		if($id){
-			$data['forums'] = $model->where('id', $id)->findAll();
-			echo json_encode($data['forums']);
-		} else {
-			$data['count_all'] = $model->select('COUNT(*) as count_replies')
-								->join('threads as t', 'forums.id=t.forum_id')
-								->join('replies as r','r.thread_id=t.id')
-								->findAll();
-			$data['count'] = $model->select('COUNT(*) as count_threads')
-								->join('threads as t', 'forums.id=t.forum_id')
-								->findAll();
-			$data['forums'] = $model->findAll();
-			echo json_encode($data);
-		}
-	}
 	public function add(){
 		$data =[
 			'forum_title' => $this->request->getPost('title'),
