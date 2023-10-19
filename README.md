@@ -12,3 +12,5 @@ The backend of the website is made using the Codeigniter 4 framework. Codeignite
 The Model is the data structure which is used in the program.
 The View is what the user sees.
 And the Controller is what manipulates the model and data that is sent and displayed in view.
+## The Database
+The database used in this project is MySql.
