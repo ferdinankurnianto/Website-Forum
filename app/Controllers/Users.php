@@ -22,13 +22,14 @@ class Users extends BaseController{
 		echo view('footer_view');
 	}
 	public function loginCheck(){
+		date_default_timezone_set('Asia/Jakarta');
 		$email = $this->request->getPost('email');
 		$password = $this->request->getPost('password');
 		$userModel = new UsersModel();
 		$userLogModel = new UserLogModel();
 		$data = [
 			'email' => $email,
-			'timestamp' => date('Y-m-d h:i:sa') ,
+			'timestamp' => date('Y-m-d H:i:sa') ,
 			'status' => 5
 		];
 		
@@ -313,6 +314,12 @@ class Users extends BaseController{
 	public function logout(){
 		session()->destroy();
 		return redirect()->to('');
+	}
+	public function sessionCheck(){
+		$user_id = session()->get('id');
+		if(isset($user_id)){
+			echo 'success';
+		}
 	}
 }
 ?>

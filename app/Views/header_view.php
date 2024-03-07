@@ -16,7 +16,7 @@
 		<header id="header">
 			<div class="p-0 pb-4">
 				<div class="header-img">
-					<a href="home.php">
+					<a href="<?=base_url('')?>">
 					<img src="<?=base_url('img/headbanner.jpg')?>" style="width:100%;">
 					</a>
 				</div>

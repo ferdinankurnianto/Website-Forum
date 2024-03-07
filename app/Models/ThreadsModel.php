@@ -11,7 +11,7 @@ class ThreadsModel extends Model {
 	protected $allowedFields = ['forum_id','user_id','title',
 	  'content', 'timestamp'];
 
-	public function latestReply()
+	public function latestReply($id)
     {
 		$result = $this->select('u.username, r.timestamp')
 		->join('replies as r', 'threads.id=r.thread_id')
@@ -19,6 +19,7 @@ class ThreadsModel extends Model {
 		->join('replies as r2', 'threads.id=r2.thread_id AND (r.timestamp < r2.timestamp OR (r.timestamp = r2.timestamp AND r.id < r2.id))'
 		, 'left outer')
 		->where('r2.id IS NULL')
+		->where('threads.forum_id', $id)
 		->findAll();
   
 	 	return $result;

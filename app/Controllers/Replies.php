@@ -10,10 +10,12 @@ class Replies extends BaseController{
 	}
 	public function getReplies($id=''){
 		$model = new RepliesModel();
+		
 		$data['replies'] = $model->select('replies.*, u.username')
 								->join('threads as t', 'replies.thread_id = t.id')
 								->join('users as u', 'replies.user_id = u.id')->where('t.id',$id)->findAll();
-		echo json_encode($data['replies']);
+		$data['reply_of_reply'] = $model->replyOfReply();
+		echo json_encode($data);
 	}
 	public function getData(){
 		$id = $this->request->getPost('id');
@@ -27,11 +29,13 @@ class Replies extends BaseController{
 		}
 	}
 	public function add(){
+		date_default_timezone_set('Asia/Jakarta');
 		$data =[
 			'thread_id' => $this->request->getPost('thread_id'),
+			'reply_id' => $this->request->getPost('reply_id'),
 			'user_id' => $this->request->getPost('user_id'),
 			'content' => $this->request->getPost('content'),
-			'timestamp' => date('Y-m-d h:i:sa')
+			'timestamp' => date('Y-m-d H:i:sa'),
 		];
 		if($this->form_validation->run($data, 'reply') == FALSE){
 			$result['message'] = $this->form_validation->getErrors();

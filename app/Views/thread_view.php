@@ -31,6 +31,7 @@
 						<td>
 							<div class="form-group">
 								<input type="hidden" id="thread_id" name="thread_id" value="">
+								<input type="hidden" id="reply_id" name="reply_id" value="0">
 								<input type="hidden" id="user_id" name="user_id" value="'.$user_id["id"].'">
 								<label>Message:</label>
 								<textarea class="form-control" rows="3" cols="60" id="content" name="content"></textarea>

@@ -17,7 +17,7 @@ class Threads extends BaseController{
 		$model = new ThreadsModel();
 		$data['threads'] = $model->select('threads.*, u.username, f.forum_title')->join('forums as f', 'threads.forum_id = f.id')
 								->join('users as u', 'threads.user_id = u.id')->where('f.id',$id)->findAll();
-		$data['replies'] = $model->latestReply();
+		$data['replies'] = $model->latestReply($id);
 		echo json_encode($data);
 	}
 	public function getThread($id=''){
