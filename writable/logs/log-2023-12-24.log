@@ -1,0 +1,78 @@
+CRITICAL - 2023-12-24 04:12:37 --> syntax error, unexpected token "if"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('replies/getRepl...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('replies/getRepl...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-24 04:12:39 --> syntax error, unexpected token "if"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('replies/add')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('replies/add')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-24 04:13:48 --> syntax error, unexpected token "if"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('replies/getRepl...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('replies/getRepl...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-24 04:13:49 --> syntax error, unexpected token "if"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('replies/add')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('replies/add')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-12-24 05:50:41 --> Unknown column 'r2.reply_id' in 'where clause'
+CRITICAL - 2023-12-24 05:50:41 --> Unknown column 'r2.reply_id' in 'where clause'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `replies...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `replies...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `replies...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `replies...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Models\RepliesModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Replies.php(17): App\Models\RepliesModel->replyOfReply()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Replies->getReplies('1')
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Replies))
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-12-24 06:08:21 --> syntax error, unexpected single-quoted string "Asia/Jakarta", expecting ")"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('replies/getRepl...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('replies/getRepl...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-24 06:08:29 --> syntax error, unexpected single-quoted string "Asia/Jakarta", expecting ")"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('replies/getRepl...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('replies/getRepl...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-24 06:08:44 --> syntax error, unexpected double-quoted string "Asia/Jakarta", expecting ")"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('replies/getRepl...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('replies/getRepl...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-24 06:09:02 --> syntax error, unexpected double-quoted string "Asia//Jakarta", expecting ")"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('replies/getRepl...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('replies/getRepl...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-12-24 06:09:09 --> syntax error, unexpected double-quoted string "Asia\/Jakarta", expecting ")"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('replies/getRepl...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('replies/getRepl...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

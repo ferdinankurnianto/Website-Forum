@@ -1,0 +1,485 @@
+CRITICAL - 2022-07-02 00:00:21 --> Illegal string offset 'username'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\XAMPP\\htdocs...', 220, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 00:00:56 --> Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\XAMPP\\htdocs...', 220, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 00:06:32 --> Call to undefined function App\Controllers\toArray()
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-02 00:07:39 --> Call to undefined function App\Controllers\toArray()
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-02 00:07:40 --> Call to undefined function App\Controllers\toArray()
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-02 00:09:55 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 219, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 00:10:14 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 219, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 00:29:20 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\XAMPP\\htdocs...', 218, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(218): json_decode(Array)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-02 00:31:44 --> Undefined index: dataSend
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\XAMPP\\htdocs...', 219, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 00:31:55 --> Cannot use [] for reading
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-02 00:41:58 --> Undefined offset: 0
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\XAMPP\\htdocs...', 219, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 00:44:41 --> Undefined variable: field_name
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 222, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 03:15:13 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\thread_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 28, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(12): view('thread_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 03:15:15 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\thread_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 28, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(12): view('thread_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 03:17:42 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\thread_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 4, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(12): view('thread_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 03:17:44 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\thread_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 4, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(12): view('thread_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 03:18:34 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(12): view('thread_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 03:18:35 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(12): view('thread_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('img', 'light.png')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 03:18:41 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\thread_view.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 6, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(12): view('thread_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 03:18:42 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\thread_view.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 6, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(12): view('thread_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 04:26:35 --> syntax error, unexpected '}', expecting ';' or ','
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('forum_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(13): view('forum_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index('1')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 04:26:36 --> syntax error, unexpected '}', expecting ';' or ','
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('forum_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(13): view('forum_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index('img', 'light.png')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 04:30:17 --> syntax error, unexpected '?'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(13): view('thread_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1', '1')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 04:30:18 --> syntax error, unexpected '?'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(13): view('thread_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1', 'img', 'light.png')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 04:30:33 --> syntax error, unexpected '?'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(13): view('thread_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1', '1')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 04:30:34 --> syntax error, unexpected '?'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(13): view('thread_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1', 'img', 'light.png')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 04:31:03 --> syntax error, unexpected '}', expecting ';' or ','
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(13): view('thread_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1', '1')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 04:31:04 --> syntax error, unexpected '}', expecting ';' or ','
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(13): view('thread_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->index('1', 'img', 'light.png')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 04:31:36 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\forum_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 4, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('forum_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(13): view('forum_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index('1')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 04:31:37 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\forum_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 4, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('forum_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(13): view('forum_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 04:32:13 --> Undefined variable: user_id
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\forum_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 4, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('forum_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(13): view('forum_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index('1')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 04:32:14 --> Undefined variable: user_id
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\forum_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 4, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('forum_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(13): view('forum_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 04:32:48 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\forum_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 4, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('forum_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(13): view('forum_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index('1')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 04:32:49 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\forum_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 4, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('forum_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(13): view('forum_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 04:44:09 --> Undefined variable: email
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 88, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 04:44:38 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/register')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/register')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 04:53:36 --> syntax error, unexpected '{'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(16): view('header_view')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 04:54:02 --> Undefined variable: admin
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\header_view.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 40, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Index.php(6): view('header_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Index->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 05:03:07 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\profile_view.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 6, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('profile_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(21): view('profile_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 05:10:58 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\profile_view.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 6, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('profile_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(21): view('profile_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 05:13:04 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\profile_view.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 6, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('profile_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(21): view('profile_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 06:57:47 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\admin_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 5, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('admin_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(8): view('admin_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 06:58:52 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\admin_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 5, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('admin_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(8): view('admin_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 06:59:10 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\admin_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 5, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('admin_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(8): view('admin_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 07:03:03 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\admin_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 5, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('admin_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(8): view('admin_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 07:04:22 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\admin_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 5, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('admin_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(8): view('admin_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 07:04:25 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\admin_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 5, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('admin_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(8): view('admin_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 07:04:26 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\admin_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 5, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('admin_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(8): view('admin_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 07:05:29 --> Trying to access array offset on value of type null
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\admin_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 5, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('admin_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(8): view('admin_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 07:11:12 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\header_view.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 43, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Index.php(6): view('header_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Index->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 07:35:13 --> Invalid file: credit_view.php
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('credit_view.php')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('credit_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Index.php(12): view('credit_view')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Index->credit()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 08:10:21 --> syntax error, unexpected ''otp'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/login')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/login')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

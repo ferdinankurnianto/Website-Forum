@@ -1,0 +1,922 @@
+CRITICAL - 2022-07-01 02:49:59 --> Undefined property: App\Controllers\Users::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 29, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->register()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 03:11:45 --> Undefined property: App\Controllers\Users::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 32, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->newAccount()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 03:12:15 --> Undefined property: App\Controllers\Users::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 32, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->newAccount()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 03:17:36 --> Class 'App\Controllers\DecksModel' not found
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->newAccount()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 03:18:21 --> Class 'App\Models\UsersModel' not found
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->newAccount()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 03:20:04 --> Class 'App\Models\UsersModel' not found
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->newAccount()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 04:15:04 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(13): view('header_view')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 04:15:30 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(13): view('header_view')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 04:17:03 --> syntax error, unexpected '.'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(13): view('header_view')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 04:25:29 --> Undefined variable: admin
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 34, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->loginCheck()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 04:26:41 --> Cannot use object of type stdClass as array
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(15): view('header_view')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 04:27:33 --> Object of class stdClass could not be converted to string
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(15): view('header_view')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 04:27:55 --> Object of class stdClass could not be converted to string
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(15): view('header_view')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 04:28:48 --> Cannot use object of type stdClass as array
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(15): view('header_view')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 04:29:10 --> Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\header_view.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\XAMPP\\htdocs...', 33, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(15): view('header_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 04:29:37 --> Object of class stdClass could not be converted to string
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(15): view('header_view')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 04:30:00 --> Object of class stdClass could not be converted to string
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(15): view('header_view')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 04:30:34 --> Cannot use object of type stdClass as array
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(15): view('header_view')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 04:33:09 --> Call to undefined function get()
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(15): view('header_view')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 06:39:39 --> Undefined variable: model
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 25, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 06:41:00 --> Undefined variable: model
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 26, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 06:49:06 --> Allowed fields must be specified for model: App\Models\ForumsModel
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Foru...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(39): CodeIgniter\Model->insert(Array)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->add()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 06:49:44 --> Allowed fields must be specified for model: App\Models\ForumsModel
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Foru...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(39): CodeIgniter\Model->insert(Array)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->add()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 06:50:33 --> Allowed fields must be specified for model: App\Models\ForumsModel
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Foru...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(37): CodeIgniter\Model->insert(Array)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->add()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-01 06:54:15 --> Unknown column 'title' in 'field list'
+CRITICAL - 2022-07-01 06:54:15 --> Unknown column 'title' in 'field list'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->add()
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-01 06:54:17 --> Unknown column 'title' in 'field list'
+CRITICAL - 2022-07-01 06:54:17 --> Unknown column 'title' in 'field list'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->add()
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-01 06:54:24 --> Unknown column 'title' in 'field list'
+CRITICAL - 2022-07-01 06:54:24 --> Unknown column 'title' in 'field list'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(37): CodeIgniter\Model->insert(Array)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->add()
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-01 09:17:49 --> Invalid file: thread_admin.php
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('thread_admin.ph...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('thread_admin', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(17): view('thread_admin')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->thread()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 09:18:28 --> Undefined index: decks
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\XAMPP\\htdocs...', 32, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->getData()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 09:19:15 --> Undefined index: decks
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\XAMPP\\htdocs...', 32, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->getData()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 09:23:21 --> Undefined property: App\Controllers\Threads::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 43, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->add()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 09:23:30 --> Undefined property: App\Controllers\Threads::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 43, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->add()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-01 09:26:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `t` (`forum_id`, `user_id`, `title`, `content`, `timestamp`) VALUES ('1', ...' at line 1
+CRITICAL - 2022-07-01 09:26:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `t` (`forum_id`, `user_id`, `title`, `content`, `timestamp`) VALUES ('1', ...' at line 1
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `th...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `th...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `th...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `th...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(51): CodeIgniter\Model->insert(Array)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->add()
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-01 09:31:43 --> Unknown table '20212_wp3_412019007.t'
+CRITICAL - 2022-07-01 09:31:43 --> Unknown table '20212_wp3_412019007.t'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `t`.*, `...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.*, `...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.*, `...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `t`.*, `...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Threads.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Threads->getThreads('1')
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Threads))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-01 10:04:14 --> Undefined property: App\Controllers\Replies::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Replies.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 33, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Replies->add()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Replies))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 10:04:16 --> Undefined property: App\Controllers\Replies::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Replies.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 33, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Replies->add()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Replies))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 10:04:25 --> Undefined property: App\Controllers\Replies::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Replies.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 33, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Replies->add()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Replies))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 10:06:34 --> Undefined property: App\Controllers\Replies::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Replies.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 33, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Replies->add()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Replies))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 10:08:09 --> Undefined property: App\Controllers\Replies::$form_validation
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Replies.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 33, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Replies->add()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Replies))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 10:09:10 --> Invalid file: user_admin.php
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_admin.php')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('user_admin', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(27): view('user_admin')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->user()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 10:58:08 --> syntax error, unexpected ')'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/user')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/user')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 11:47:00 --> There is no data to update.
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Admin.php(46): CodeIgniter\Model->update('13', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Admin->setStatus()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 12:25:13 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'D:\\XAMPP\\htdocs...', 162, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(162): session_destroy()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->logout()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-01 12:26:00 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'D:\\XAMPP\\htdocs...', 162, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(162): session_destroy()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->logout()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-01 12:27:51 --> Undefined variable: admin
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\header_view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 39, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('header_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Index.php(6): view('header_view')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Index->index()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 12:44:25 --> Class 'App\Controllers\UserModel' not found
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->forget()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 12:44:45 --> Undefined variable: model
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 99, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->forget()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 12:45:17 --> There is no data to update.
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(99): CodeIgniter\Model->update(Array, Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->forget()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 12:46:07 --> Undefined index: nama
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\XAMPP\\htdocs...', 104, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->forget()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 12:46:37 --> Undefined variable: otp
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 106, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->forget()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 13:09:00 --> syntax error, unexpected 'session' (T_STRING)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/changePas...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/changePas...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 13:09:10 --> Cannot redeclare Config\Validation::$register_errors
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-01 13:10:02 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\changepassword_view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 12, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(143): view('changepassword_...')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 13:10:03 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\changepassword_view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 12, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(143): view('changepassword_...')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 13:24:40 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/changePas...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/changePas...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 13:24:49 --> syntax error, unexpected ')'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/changePas...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/changePas...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 13:27:55 --> Call to undefined method App\Models\UsersModel::affected_rows
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(136): CodeIgniter\Model->__call('affected_rows', Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 13:28:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::affected_rows()
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 13:28:42 --> Object of class App\Models\UsersModel could not be converted to string
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 13:29:35 --> Object of class App\Models\UsersModel could not be converted to string
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 13:30:18 --> Object of class App\Models\UsersModel could not be converted to string
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 13:31:16 --> Undefined property: App\Controllers\Users::$UsersModel
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 136, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 13:31:27 --> Object of class App\Models\UsersModel could not be converted to string
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-01 13:38:15 --> syntax error, unexpected ')'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/changePas...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/changePas...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 13:38:35 --> Invalid argument supplied for foreach()
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\changepassword_view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\XAMPP\\htdocs...', 12, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(146): view('changepassword_...')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 13:38:36 --> Invalid argument supplied for foreach()
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\changepassword_view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\XAMPP\\htdocs...', 12, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(146): view('changepassword_...')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 13:42:27 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(146): view('changepassword_...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 13:42:28 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(146): view('changepassword_...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('img', 'light.png')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-01 13:43:16 --> Undefined variable: values
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\changepassword_view.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 13, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(146): view('changepassword_...')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 13:43:17 --> Undefined variable: values
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\changepassword_view.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 13, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(146): view('changepassword_...')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 13:43:33 --> Undefined variable: error
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\changepassword_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 19, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(146): view('changepassword_...')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('f8a2479c3b')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 13:43:34 --> Undefined variable: error
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\changepassword_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 19, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('changepassword_...', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(146): view('changepassword_...')
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->changePassword('img', 'light.png')
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-01 14:00:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(*)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JOIN ...' at line 1
+CRITICAL - 2022-07-01 14:00:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(*)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JOIN ...' at line 1
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(43): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:01:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(*)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JOIN ...' at line 1
+CRITICAL - 2022-07-01 14:01:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(*)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JOIN ...' at line 1
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(fo...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(fo...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(fo...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(fo...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(43): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:02:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(timestamp)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_i...' at line 1
+CRITICAL - 2022-07-01 14:02:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(timestamp)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_i...' at line 1
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(43): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:04:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(forums.forum_title)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`...' at line 1
+CRITICAL - 2022-07-01 14:04:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(forums.forum_title)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`...' at line 1
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(43): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:04:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(t.id)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JO...' at line 1
+CRITICAL - 2022-07-01 14:04:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(t.id)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JO...' at line 1
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(43): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:07:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(t.id)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JO...' at line 1
+CRITICAL - 2022-07-01 14:07:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(t.id)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JO...' at line 1
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(46): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:08:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JOIN `u...' at line 1
+CRITICAL - 2022-07-01 14:08:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JOIN `u...' at line 1
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(43): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:09:15 --> Column 'timestamp' in order clause is ambiguous
+CRITICAL - 2022-07-01 14:09:15 --> Column 'timestamp' in order clause is ambiguous
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(44): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:16:15 --> Unknown column 't.^' in 'field list'
+CRITICAL - 2022-07-01 14:16:15 --> Unknown column 't.^' in 'field list'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `t`.`^`\n...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.`^`\n...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.`^`\n...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `t`.`^`\n...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(45): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:19:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JOIN `...' at line 1
+CRITICAL - 2022-07-01 14:19:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*)
+FROM `forums`
+JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+JOIN `...' at line 1
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(r....', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(r....')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(r....')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(r....', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(42): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-01 14:34:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+OUTER JOIN `repli...' at line 3
+CRITICAL - 2022-07-01 14:34:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `threads` as `t` ON `forums`.`id`=`t`.`forum_id`
+OUTER JOIN `repli...' at line 3
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(42): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForum()
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#9 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-01 21:18:40 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/profile')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/profile')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 21:19:01 --> Undefined variable: id
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 40, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->loginCheck()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 21:26:27 --> Array to string conversion
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\profile_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\XAMPP\\htdocs...', 11, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('profile_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(21): view('profile_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 21:26:49 --> Undefined variable: username
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Views\profile_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 11, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('profile_view', Array, true)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(21): view('profile_view', Array)
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->profile()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 23:48:51 --> syntax error, unexpected 'editProfile' (T_STRING), expecting variable (T_VARIABLE)
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/profile')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/profile')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 23:49:05 --> syntax error, unexpected ';', expecting ']'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/profile')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/profile')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 23:49:54 --> syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/profile')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/profile')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 23:55:51 --> syntax error, unexpected ';', expecting ']'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('users/profile')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('users/profile')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 23:56:08 --> Illegal string offset 'username'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\XAMPP\\htdocs...', 220, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 23:56:30 --> Illegal string offset 'username'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\XAMPP\\htdocs...', 220, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 23:56:59 --> Illegal string offset 'username'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\XAMPP\\htdocs...', 220, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 23:57:01 --> Illegal string offset 'username'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\XAMPP\\htdocs...', 220, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 23:59:09 --> Illegal string offset 'username'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\XAMPP\\htdocs...', 220, Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->editProfile()
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\index\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

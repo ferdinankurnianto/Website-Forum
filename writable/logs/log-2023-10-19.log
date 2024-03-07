@@ -1,0 +1,79 @@
+ERROR - 2023-10-19 00:18:35 --> Error connecting to the database: Unknown database '20212_wp3_412019007'
+CRITICAL - 2023-10-19 00:18:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database '20212_wp3_412019007'
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(28): CodeIgniter\BaseModel->findAll()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 02:07:54 --> syntax error, unexpected token "return"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Foru...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Foru...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-19 02:08:00 --> syntax error, unexpected token "return"
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs...')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Foru...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Foru...')
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-19 02:08:30 --> Class "App\Controllers\ThreadsModel" not found
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-19 02:08:34 --> Class "App\Controllers\ThreadsModel" not found
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-19 02:08:47 --> CodeIgniter\Database\BaseBuilder::join(): Argument #2 ($cond) must be of type string, null given, called in D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php on line 728
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(728): CodeIgniter\Database\BaseBuilder->join('threads as t2', NULL, 'left outer')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Models\ForumsModel.php(18): CodeIgniter\Model->__call('join', Array)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(29): App\Models\ForumsModel->latestPost()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-19 02:08:49 --> CodeIgniter\Database\BaseBuilder::join(): Argument #2 ($cond) must be of type string, null given, called in D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php on line 728
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(728): CodeIgniter\Database\BaseBuilder->join('threads as t2', NULL, 'left outer')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Models\ForumsModel.php(18): CodeIgniter\Model->__call('join', Array)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(29): App\Models\ForumsModel->latestPost()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-19 02:09:35 --> CodeIgniter\Database\BaseBuilder::join(): Argument #2 ($cond) must be of type string, null given, called in D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php on line 728
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Model.php(728): CodeIgniter\Database\BaseBuilder->join('threads as t2', NULL, 'left outer')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Models\ForumsModel.php(17): CodeIgniter\Model->__call('join', Array)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(29): App\Models\ForumsModel->latestPost()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->getForums()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-19 03:10:43 --> Invalid file: forum_view.php
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum_view.php')
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('forum_view', Array, true)
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Forums.php(13): view('forum_view', Array)
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Forums->index('1')
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forums))
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

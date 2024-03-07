@@ -1,0 +1,13 @@
+__ci_last_regenerate|i:1702608720;_ci_previous_url|s:94:"http://localhost/412019007_Ferdinan_Kurnianto/ci-framework-4.1.1/public/index.php/users/forget";errors|a:1:{i:0;s:1638:"We can\'t reach you by email!<br>Error:
+							PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\vendor\phpmailer\phpmailer\src\PHPMailer.php:2186
+Stack trace:
+#0 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\vendor\phpmailer\phpmailer\src\PHPMailer.php(1996): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\vendor\phpmailer\phpmailer\src\PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 14 D...', 'Dear Ferdinan,<...')
+#2 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\vendor\phpmailer\phpmailer\src\PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Mailer.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#4 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\app\Controllers\Users.php(129): App\Controllers\Mailer->send()
+#5 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Users->forget()
+#6 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\412019007_Ferdinan_Kurnianto\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}";}__ci_vars|a:1:{s:6:"errors";s:3:"old";}

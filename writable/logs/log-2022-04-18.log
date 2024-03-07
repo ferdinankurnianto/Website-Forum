@@ -1,0 +1,47 @@
+CRITICAL - 2022-04-18 01:57:53 --> Trying to get property 'id' of non-object
+#0 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\app\Views\decks_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\XAMPP\\htdocs...', 30, Array)
+#1 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('decks_view', Array, true)
+#4 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\app\Controllers\decks.php(9): view('decks_view', Array)
+#5 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Decks->index()
+#6 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Decks))
+#7 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 01:58:04 --> syntax error, unexpected '.'
+#0 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('decks_view', Array, true)
+#2 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\app\Controllers\decks.php(9): view('decks_view', Array)
+#3 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Decks->index()
+#4 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Decks))
+#5 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 01:58:14 --> syntax error, unexpected '.'
+#0 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('decks_view', Array, true)
+#2 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\app\Controllers\decks.php(9): view('decks_view', Array)
+#3 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Decks->index()
+#4 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Decks))
+#5 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 01:58:25 --> syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('decks_view', Array, true)
+#2 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\app\Controllers\decks.php(9): view('decks_view', Array)
+#3 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Decks->index()
+#4 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Decks))
+#5 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 01:58:34 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\Common.php(1089): CodeIgniter\View\View->render('decks_view', Array, true)
+#2 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\app\Controllers\decks.php(9): view('decks_view', Array)
+#3 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(832): App\Controllers\Decks->index()
+#4 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Decks))
+#5 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\webprog3\lab6\ci-framework-4.1.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
