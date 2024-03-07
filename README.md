@@ -18,7 +18,7 @@ As a User you are able to add a new thread to existing forums and add a reply to
 
 As an Admin you are able to add, edit, and delete various data stored in database through the CMS pages and also manages the users that exists such as checking login log, adding/deleting user, activate/deactivate user, and manually changing password.
 
-![image](https://github.com/ferdinankurnianto/Website-Forum/assets/148441503/b665b686-473b-48ac-a416-efd09835ddd7)
+![image](https://github.com/ferdinankurnianto/Website-Forum/assets/148441503/7ba01cba-b8e5-42c5-8def-9a2469eb7be5)
 
 *Modal that appears when trying to add or edit data through CMS
 
